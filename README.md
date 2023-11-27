@@ -26,7 +26,9 @@ The image comes with a few scripts explained below :
 ## First-run (steps needed to complete the setup)
 For every software to be initialized :
 > sudo docker compose up -d
+> 
 > sudo docker exec -it secured-front sh
+> 
 > /bin/dehydrated --register --accept-terms"
 
 Once you've put the wanted domains in dehydrated-domains.txt, configured your network and port redirection for 80 & 443 :
