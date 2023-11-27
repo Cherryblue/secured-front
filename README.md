@@ -24,6 +24,7 @@ The image comes with a few scripts explained below :
 - To Alpine Linux Team for making all this possible in a stupidly small form factor.
 
 ## First-run (steps needed to complete the setup)
+Here is the [docker image](https://hub.docker.com/repository/docker/kynn/secured-front/general). The docker-compose file in this repository is already configured to download this image, but feel free to build it yourself.
 For every software to be initialized :
 > sudo docker compose up -d
 > 
